@@ -5,7 +5,9 @@
   "main": "./dist/index.js",
   "scripts": {
     "build": "tsc",
-    "groupcss": "node C:/Users/sbsil/OneDrive/Desktop/npm-csscg/dist/commands/groupcss.js"
+    "groupcss": "node C:/Users/sbsil/OneDrive/Desktop/npm-csscg/dist/commands/groupcss.js",
+    "playground": "ts-node src/playground.ts",
+    "test": "jest ./tests"
   },
   "bin": {
     "groupcss": "./dist/commands/groupcss.js"
@@ -21,8 +23,12 @@
   "author": "Saba Silagadze",
   "license": "ISC",
   "devDependencies": {
+    "@types/jest": "^29.5.14",
     "@types/node": "^20.2.5",
+    "jest": "^29.7.0",
     "prettier": "^3.5.3",
+    "ts-jest": "^29.2.6",
+    "ts-node": "^10.9.2",
     "typescript": "^5.0.4"
   },
   "dependencies": {
