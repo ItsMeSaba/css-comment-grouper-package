@@ -3,5 +3,5 @@ import { expectedOutput, testInput } from './sample-css';
 
 test('Main Functionality Test', () => {
   const result = groupCSS(testInput);
-  expect(result).toEqual(expectedOutput);
+  expect(result).toEqual('expectedOutput');
 });
