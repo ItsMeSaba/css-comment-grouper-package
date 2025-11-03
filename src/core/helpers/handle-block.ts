@@ -2,7 +2,7 @@ import PropertyGroups from './property-groups';
 
 import { Options } from '../../types';
 import { AtRule, Comment, Declaration, Rule } from 'postcss';
-import { isCommentGroupName } from '../utils/is-comment-group-name';
+import { isCommentGroupName } from './is-comment-group-name';
 
 export function handleBlock(block: Rule | AtRule, options?: Options) {
   const listOfProperties = block.nodes as (Declaration | Comment | Rule | AtRule)[];
