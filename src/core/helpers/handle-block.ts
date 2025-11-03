@@ -1,6 +1,6 @@
-import PropertyGroups from '../utils/propertyGroups/property-groups';
+import PropertyGroups from './property-groups';
 
-import { Options } from '../types';
+import { Options } from '../../types';
 import { AtRule, Comment, Declaration, Rule } from 'postcss';
 import { isCommentGroupName } from '../utils/is-comment-group-name';
 

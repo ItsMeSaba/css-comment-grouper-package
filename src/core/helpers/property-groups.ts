@@ -1,5 +1,5 @@
 import { Declaration } from 'postcss';
-import propertyCategories from './property-categories';
+import propertyCategories from '../data/properties-by-groups';
 
 export default class PropertyGroups {
   groups: Map<string, Declaration[]>;

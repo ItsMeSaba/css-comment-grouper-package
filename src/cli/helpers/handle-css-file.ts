@@ -1,5 +1,5 @@
 import { readFile, writeFile } from 'fs/promises';
-import { groupCSS } from '../..';
+import { groupCSS } from '../../core';
 
 export async function handleCssFile(path: string) {
   try {

@@ -2,9 +2,9 @@
 
 import { join } from 'path';
 import { readdir } from 'fs/promises';
-import { isFolder } from './utils/is-folder';
-import { isCssFile } from './utils/is-css-file';
-import { handleCssFile } from './utils/handle-css-file';
+import { isFolder } from './helpers/is-folder';
+import { isCssFile } from './helpers/is-css-file';
+import { handleCssFile } from './helpers/handle-css-file';
 
 const args = process.argv.splice(2);
 

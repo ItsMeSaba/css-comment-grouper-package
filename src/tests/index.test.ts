@@ -1,4 +1,4 @@
-import { groupCSS } from '../index';
+import { groupCSS } from '../core/index';
 import { expectedOutput, testInput } from './sample-css';
 
 test('Main Functionality Test', () => {
