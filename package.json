@@ -5,7 +5,6 @@
   "main": "./dist/index.js",
   "scripts": {
     "build": "tsc",
-    "groupcss": "node C:/Users/sbsil/OneDrive/Desktop/npm-csscg/dist/commands/groupcss.js",
     "playground": "ts-node src/playground.ts",
     "test": "jest ./tests"
   },
