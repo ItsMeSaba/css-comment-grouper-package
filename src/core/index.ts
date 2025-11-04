@@ -1,6 +1,6 @@
 import { Options } from '../types';
 import { AtRule, Rule } from 'postcss';
-import { handleBlock } from './helpers/handle-block';
+import { handleBlock } from './handle-block/handle-block';
 
 import postcsScss from 'postcss-scss';
 
