@@ -1,4 +1,4 @@
-import { groupCSS } from '.';
+import { groupCSS } from './core';
 
 console.log('\n========== Playground running ==========\n');
 
